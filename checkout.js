@@ -6,7 +6,8 @@ function calculateItemTotal(item) {
 }
 
 function calculateTotal(items) {
-  return items
+  return items.map(calculateItemTotal)
 }
 
 module.exports = calculateTotal
+

@@ -5,9 +5,10 @@ function calculateItemTotal(item) {
   return item
 }
 
-function calculateTotal(items) {
+function calculateTotal(items) { 
   return items.map(calculateItemTotal)
-}
+} 
 
-module.exports = calculateTotal
+module.exports = 
+calculateTotal
 
